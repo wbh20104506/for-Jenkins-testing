@@ -1,7 +1,8 @@
 # coding:utf-8
-from selenium import webdriver
-from fengzhuang.repeat_process import *
 import time
+
+from aws_test.repeat_process import *
+
 
 class Login_Open_Detail():
 

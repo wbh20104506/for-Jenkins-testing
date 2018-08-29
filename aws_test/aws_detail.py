@@ -1,12 +1,9 @@
 # coding:utf-8
 
-from selenium import webdriver
-from selenium.webdriver.common.base import *
-from fengzhuang.repeat_process import *
-from fengzhuang.aws_login_open_detail import *
-
 import unittest
-import time
+
+from aws_test.aws_login_open_detail import *
+
 
 class Test_Detail(unittest.TestCase):
 

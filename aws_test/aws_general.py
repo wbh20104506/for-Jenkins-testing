@@ -1,11 +1,10 @@
 # coding:utf-8
 
-from selenium import webdriver
-from selenium.webdriver.common.base import *
-from fengzhuang.repeat_process import *
-from fengzhuang.aws_login_open_detail import *
-import unittest
 import time
+import unittest
+
+from aws_test.aws_login_open_detail import *
+
 
 class Test_Detail(unittest.TestCase):
 
@@ -14,7 +13,7 @@ class Test_Detail(unittest.TestCase):
         '''登录'''
         cls.driver = webdriver.Firefox()
         detail = Login_Open_Detail(cls.driver)
-        detail.Login()
+        detail.login_url()
 
     @classmethod
     def tearDownClass(cls):
@@ -31,7 +30,7 @@ class Test_Detail(unittest.TestCase):
         Report_Checkbox = ("css selector",".jstree-icon.jstree-checkbox")
         Delete_Btn = ("css selector",".btn.btn-danger.fav-bth.delete")
         OK_Cancel_Btn = ("css selector",".btn.btn-danger.ok-btn.ng-binding")
-        self.P.Delete_Favorite(Favorite_Icon2,Report_Checkbox,Delete_Btn,OK_Cancel_Btn)
+        self.P.delete_favorite(Favorite_Icon2,Report_Checkbox,Delete_Btn,OK_Cancel_Btn)
         time.sleep(3)
         Rpt_N_Y = ("css selector",".jstree-icon.jstree-checkbox")
         elements = self.Base.find_elements(Rpt_N_Y)
