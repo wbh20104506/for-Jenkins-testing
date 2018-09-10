@@ -1,12 +1,12 @@
 # coding:utf-8
 
-import time
 import unittest
 
-from aws_test.aws_login_open_detail import *
+from page.aws_login_open_detail import *
 
 
-class Test_Detail(unittest.TestCase):
+class General_test(unittest.TestCase):
+    '''不分报表总体测试'''
 
     @classmethod
     def setUpClass(cls):
@@ -35,4 +35,7 @@ class Test_Detail(unittest.TestCase):
         Rpt_N_Y = ("css selector",".jstree-icon.jstree-checkbox")
         elements = self.Base.find_elements(Rpt_N_Y)
         self.assertEqual(1,len(elements))
+
+if __name__ == "__main__":
+    unittest.main()
 

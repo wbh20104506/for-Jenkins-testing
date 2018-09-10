@@ -1,7 +1,6 @@
 # coding:utf-8
-import time
 
-from aws_test.repeat_process import *
+from page.repeat_process import *
 
 
 class Login_Open_Detail():

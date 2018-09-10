@@ -2,10 +2,11 @@
 
 import unittest
 
-from aws_test.aws_login_open_detail import *
+from page.aws_login_open_detail import *
 
 
 class Test_Detail(unittest.TestCase):
+    '''明细表测试'''
 
     @classmethod
     def setUpClass(cls):

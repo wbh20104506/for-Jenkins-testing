@@ -1,7 +1,8 @@
 # coding:utf-8
-from selenium import webdriver
-from selenium.webdriver.common.base import *
 import time
+
+from common.base import *
+
 
 class Repeat_Process():
     u'''封装前端UI中的重复步骤'''
