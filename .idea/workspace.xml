@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="faac30f0-31eb-4007-b8a3-3953c004a05d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/2018-09-05 16_51_09aws_result.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/2018-09-05 16_52_57aws_result.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run_all.py" afterPath="$PROJECT_DIR$/run_all.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/result.html" afterPath="$PROJECT_DIR$/report/result.html" />
     </list>
     <ignored path="test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -579,8 +576,8 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="383" y="337" width="1382" height="744" extended-state="1" />
-    <editor active="true" />
+    <frame x="383" y="337" width="1382" height="744" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19033675" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
