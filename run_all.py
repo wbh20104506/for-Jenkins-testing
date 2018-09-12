@@ -15,7 +15,7 @@ print(discover)
 
 if __name__ == "__main__":
     # 生成报告的路径及时间
-    report_path = "D:\\test\\report\\"+"result.html"
+    report_path = "D:\\thiscomputer\\workspace\\aws_test\\report\\"+"result.html"
     # 打开报告并写入测试结果
     fp = open(report_path,"wb")
     runner = HTMLTestRunner_cn.HTMLTestRunner(stream=fp,
