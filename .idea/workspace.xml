@@ -29,7 +29,7 @@
     <SUITE FILE_PATH="coverage/test$cls_login.coverage" NAME="cls_login Coverage Results" MODIFIED="1532421481041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fengzhuang" />
     <SUITE FILE_PATH="coverage/test$Unittest_Test_Detail_test_03__3_.coverage" NAME="Unittest Test_Detail.test_03 (3) Coverage Results" MODIFIED="1533779551568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aws_test" />
     <SUITE FILE_PATH="coverage/test$Unittests_in_aws_detail.coverage" NAME="Unittests in aws_detail Coverage Results" MODIFIED="1536136398574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aws_test" />
-    <SUITE FILE_PATH="coverage/test$send_email.coverage" NAME="send_email Coverage Results" MODIFIED="1537933250773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test$send_email.coverage" NAME="send_email Coverage Results" MODIFIED="1538032183072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test$test_detail.coverage" NAME="test_detail Coverage Results" MODIFIED="1533622660159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/platform_test" />
     <SUITE FILE_PATH="coverage/test$Unittest_Test_Detail_test_04.coverage" NAME="Unittest Test_Detail.test_04 Coverage Results" MODIFIED="1534386732625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aws_test" />
     <SUITE FILE_PATH="coverage/test$repeat_process.coverage" NAME="repeat_process Coverage Results" MODIFIED="1534825345675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fengzhuang" />
@@ -97,7 +97,7 @@
         <entry file="file://$PROJECT_DIR$/send_email.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+              <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
               <folding>
                 <element signature="e#15#29#0" expanded="true" />
               </folding>
@@ -234,7 +234,7 @@
       <recent name="D:\test\fengzhuang" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.run_all (1)">
+  <component name="RunManager" selected="Python.send_email">
     <configuration default="false" name="Unittests in aws_general" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -537,8 +537,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.run_all (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.send_email" />
+        <item index="0" class="java.lang.String" itemvalue="Python.send_email" />
+        <item index="1" class="java.lang.String" itemvalue="Python.run_all (1)" />
         <item index="2" class="java.lang.String" itemvalue="Python.run_all" />
         <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in aws_general" />
         <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in aws_detail" />
@@ -591,7 +591,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13541667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -964,7 +964,7 @@
     <entry file="file://$PROJECT_DIR$/send_email.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
           <folding>
             <element signature="e#15#29#0" expanded="true" />
           </folding>
