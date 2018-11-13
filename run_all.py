@@ -5,7 +5,7 @@ import time
 
 
 # 用例地址
-tc_dir = "D:\\test\\case"
+tc_dir = "D:\\Jenkins soft\\test_selenium\\workspace\\selenium test\\case"
 # 测试套件收集用例
 # discover方法加载多个用例集合
 discover = unittest.defaultTestLoader.discover(start_dir=tc_dir,
@@ -16,7 +16,7 @@ print(discover)
 
 if __name__ == "__main__":
     # 生成报告的路径及时间
-    report_path = "D:\\thiscomputer\\workspace\\aws_test\\report\\"+"result.html"
+    report_path = "D:\\Jenkins soft\\test_selenium\\workspace\\selenium test\\report\\"+"result.html"
     # 打开报告并写入测试结果
     fp = open(report_path,"wb")
     runner = HTMLTestRunner_cn.HTMLTestRunner(stream=fp,
